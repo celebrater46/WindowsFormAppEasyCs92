@@ -16,7 +16,7 @@ namespace WindowsFormsAppEasyCs92
         private Image im;
         private int dx, dy;
         private int t;
-        private string imgPath = "C:\\Users\\Enin\\RiderProjects\\WindowsFormsAppEasyCs92\\WindowsFormsAppEasyCs92\\img\\";
+        public static string imgPath = "C:\\Users\\Enin\\RiderProjects\\WindowsFormsAppEasyCs92\\WindowsFormsAppEasyCs92\\img\\";
         
         public Form1()
         {
@@ -84,5 +84,6 @@ namespace WindowsFormsAppEasyCs92
     {
         public Color Color;
         public Point Point;
+        public Image Image;
     }
 }
