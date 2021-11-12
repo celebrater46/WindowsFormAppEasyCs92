@@ -57,7 +57,9 @@ namespace WindowsFormsAppEasyCs92
 
         public void FmPaint2(Object sender, PaintEventArgs e)
         {
-            Graphics g = new Graphics();
+            // Graphics g = new Graphics();
+            // Graphics g = e.Graphics();
+            Graphics g = e.Graphics;
             g.DrawImage(im, 0, 0, im.Width, im.Height);
 
             Point blp = bl.Point;
